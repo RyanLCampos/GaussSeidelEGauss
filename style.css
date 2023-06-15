@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #b3d9ff, #99c2ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#method-div,
+#size-div,
+#div-epsilon {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input[type="number"],
+select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+#matrix-a,
+#matrix-b {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.step {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    white-space: pre; /* Adiciona essa linha para preservar a quebra de linha */
+}
+.step h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.step pre {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.result {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.container-steps {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    margin-top: 20px;
+}

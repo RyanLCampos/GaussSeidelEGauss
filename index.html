@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Resolução de Sistemas Lineares</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resolução de Sistemas Lineares</h1>
+
+        <div id="method-div">
+            <label for="method">Método:</label>
+            <select id="method">
+                <option value="gauss">Gauss</option>
+                <option value="gauss-seidel">Gauss-Seidel</option>
+                <option value="lu">Decomposição LU</option>
+            </select>
+        </div>
+        
+
+        <div id="size-div">
+            <label for="size">Tamanho da matriz:</label>
+            <input type="number" id="size" min="1">
+        </div>
+
+        <div id="matrix-a">
+            <h2>Matriz A</h2>
+        </div>
+
+        <div id="matrix-b">
+            <h2>Matriz B</h2>
+        </div>
+
+        <div id="div-epsilon">
+            <label for="epsilon">Epsilon:</label>
+            <input type="number" id="epsilon" step="0.0001" value="0.001">
+        </div>
+
+        <button id="calculate-btn">Calcular</button>
+    </div>
+
+    <div class="container-steps">
+        <div id="steps">
+            <h2>Passo a Passo</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
